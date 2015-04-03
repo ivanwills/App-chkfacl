@@ -11,8 +11,8 @@ my $builder = Module::Build->new(
         'perl'             => 5.008,
     },
     build_requires => {
-        'Test::More'       => '0.88',
-        'Test::NoWarnings' => 0,
+        'Test::More'     => '0.88',
+        'Test::Warnings' => 0,
     },
     add_to_cleanup     => [ 'App-chkfacl-*' ],
     create_makefile_pl => 'traditional',
