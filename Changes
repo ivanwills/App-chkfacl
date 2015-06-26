@@ -1,5 +1,10 @@
 Revision history for App-chkfacl
 
+0.2   2015-06-26
+        Updating for release of version 0.2
+        Removed unneeded tag (Ivan Wills)
+        Fixed version in change log (Ivan Wills)
+
 0.1     2015-03-15
         First version, released on an unsuspecting world.
 
