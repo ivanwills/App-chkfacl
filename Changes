@@ -1,6 +1,12 @@
 Revision history for App-chkfacl
 
+0.3   2015-08-06
+        Updating for release of version 0.3
+        Removed creation of makefile (Ivan Wills)
+        Added Perl 5.22 to list of perl versions to build with (Ivan Wills)
+
 0.2   2015-06-26
+        Fixed version number (Ivan Wills)
         Updating for release of version 0.2
         Removed unneeded tag (Ivan Wills)
         Fixed version in change log (Ivan Wills)
