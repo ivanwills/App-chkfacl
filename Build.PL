@@ -15,7 +15,6 @@ my $builder = Module::Build->new(
         'Test::Warnings' => 0,
     },
     add_to_cleanup     => [ 'App-chkfacl-*' ],
-    create_makefile_pl => 'traditional',
     create_license     => 1,
     meta_merge => {
         resources => {
