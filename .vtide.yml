@@ -9,6 +9,14 @@ editor:
       - some-file.eg
 name: chkfacl
 terminals: 
+  1a:
+    command: ./Build && ./Build testcover
+    restart: 1
+    wait: 0
+    watch:
+      - lib
+      - bin
+      - tests
   2: []
 
   3: []
